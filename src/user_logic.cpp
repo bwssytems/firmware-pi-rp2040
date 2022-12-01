@@ -1,5 +1,6 @@
 #include "user_logic.h"
 
+// if you want your impulse library to run at startup, uncomment the line below
 //#include "ei_run_impulse.h"
 
 void run_user_logic_after_inference(ei_impulse_result_t *result)
@@ -9,7 +10,7 @@ void run_user_logic_after_inference(ei_impulse_result_t *result)
 
 void start_user_impulse()
 {
-    // if you want your impulse library to run at startup
+    // if you want your impulse library to run at startup, uncomment the line below
     //ei_start_impulse(false, false);
 }
 
